@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  border-bottom: 2px solid white;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  .block1 {
+    margin-left: 40px;
+  }
+  .block2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      text-decoration: none;
+      transition: 0.5s;
+
+      &:hover {
+        color: orange;
+      }
+    }
+  }
+}
